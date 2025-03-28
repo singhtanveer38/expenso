@@ -4,7 +4,9 @@ drop table if exists products;
 
 drop sequence if exists seq_user_id;
 drop sequence if exists seq_category_id;
-drop sequence if exists seq_productsequence;
+drop sequence if exists seq_product_id;
+drop sequence if exists seq_admin_id;
+drop sequence if exists seq_transaction_id;
 
 create sequence seq_user_id
 start 101;
